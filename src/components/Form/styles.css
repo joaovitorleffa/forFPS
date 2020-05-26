@@ -1,0 +1,50 @@
+#form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto 0;
+  max-width: 700px;
+  padding: 0 20px;
+}
+
+#form label {
+  color: #fff;
+  margin: 10px 0 0 0;
+}
+
+#form label:first-child {
+  margin: 0;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#form select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: url(../../assets/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;
+  background-color:#e2e2e2;
+  margin: 4px 0 0 0;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+#form .button {
+  margin: 30px auto;
+  padding: 10px 80px;
+  border: 2px solid #41e889;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #FFFF;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: .3s ease-in;
+  cursor: pointer;
+}
+
+#form .button:hover {
+  background: #41e889;
+}

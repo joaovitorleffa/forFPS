@@ -1,0 +1,41 @@
+#bg {
+  background-image: url(../../assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+#bg-color {
+  background-color: rgba(0 , 0, 0, .72);
+  height: 92vh;
+}
+
+#logo-main{
+  text-align: center;
+  margin: 25px 0;
+}
+
+.content-positive h4, .content-result h4{
+  margin: 20px 0;
+  font-size: 22px;
+  text-align: center;
+}
+
+.content {
+  max-width: 700px;
+  margin: 0 auto 0;
+  padding: 0 20px;
+}
+
+.result, .positive{
+  padding: 20px;
+  margin: 10px 0 20px 0;
+  background-color: #41e889;
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.result {
+  background-color: #c72b40;
+}
